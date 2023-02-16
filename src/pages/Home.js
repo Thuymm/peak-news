@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import bookmarkOn from "../Assets/bookmarkon-icon@2x.svg";
-import ContentCard from "../components/ContentCard";
-import CustomButton from "../components/CustomButton";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Loader from "../components/Loader";
-import TitleCard from "../components/TitleCard";
-import * as apiService from "../utils/ApiService";
+import ContentCard from "../Components/ContentCard";
+import CustomButton from "../Components/CustomButton";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
+import Loader from "../Components/Loader";
+import TitleCard from "../Components/TitleCard";
+import * as apiService from "../Utils/ApiService";
 import "./Main.css";
 
 const Home = () => {

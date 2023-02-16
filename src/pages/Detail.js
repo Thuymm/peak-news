@@ -4,9 +4,9 @@ import React, { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import bookmarkOff from "../Assets/bookmarkoff-icon@2x.svg";
 import bookmarkOn from "../Assets/bookmarkon-icon@2x.svg";
-import CustomButton from "../components/CustomButton";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
+import CustomButton from "../Components/CustomButton";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
 import "./Detail.css";
 
 const Detail = () => {

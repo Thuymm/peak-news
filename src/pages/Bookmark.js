@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import ContentCard from "../components/ContentCard";
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-import Loader from "../components/Loader";
+import ContentCard from "../Components/ContentCard";
+import Footer from "../Components/Footer";
+import Header from "../Components/Header";
+import Loader from "../Components/Loader";
 import "./Main.css";
 
 const Bookmark = () => {
