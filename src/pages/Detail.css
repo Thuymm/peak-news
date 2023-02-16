@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  align-items: flex-start;
+  max-width: 75vw;
+  margin: 0 auto;
+  padding: 20px;
+  gap: 2rem;
+}
+
+.container > div > p,
+span,
+strong,
+em,
+i,
+u,
+b {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.container > div > figure > img {
+  width: 30vw;
+  height: auto;
+}
+
+.thumbnail {
+  margin-top: 30vh;
+}
+
+.thumbnail > figure > img {
+  width: 30vw;
+  height: auto;
+}
+
+.date {
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  line-height: 30px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin-top: 15px;
+  margin-left: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    max-width: 90vw;
+  }
+
+  .container > div > figure > img {
+    width: 70vw;
+  }
+
+  .thumbnail {
+    margin-top: 0;
+  }
+
+  .thumbnail > figure > img {
+    width: 70vw;
+  }
+}

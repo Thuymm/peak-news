@@ -1,0 +1,12 @@
+.custom-button {
+  background-color: #223879;
+  color: #fff;
+  padding: 5px;
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.custom-button > img {
+  margin-bottom: -2px;
+}
