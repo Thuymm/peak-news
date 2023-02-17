@@ -20,7 +20,7 @@ const SearchResult = () => {
     apiService
       .getTopStories(selectedOption, state, 1, 15)
       .then((response) => setSearchResult(response));
-  }, [selectedOption]);
+  }, [selectedOption, state]);
 
   const viewBookmarkHandler = () => {
     navigate("/bookmark");

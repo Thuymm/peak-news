@@ -17,6 +17,7 @@ const Header = () => {
     if (event.key === "Enter") {
       navigate("/search", {
         state: searchRef.current.value,
+        replace: true,
       });
     }
   };
