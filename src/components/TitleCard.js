@@ -5,7 +5,7 @@ const ContentCard = (props) => {
   const navigate = useNavigate();
 
   const onClickHandler = () => {
-    navigate("detail", { state: props.data, replace: true });
+    navigate("detail", { state: props.data});
   };
 
   return (

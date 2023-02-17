@@ -23,7 +23,7 @@ const SearchResult = () => {
   }, [selectedOption]);
 
   const viewBookmarkHandler = () => {
-    navigate("bookmark");
+    navigate("/bookmark");
   };
 
   const onChangeHandler = () => {
